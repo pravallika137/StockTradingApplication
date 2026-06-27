@@ -1,0 +1,78 @@
+.sell-page {
+  min-height: 100vh;
+  background: #f8fafc;
+  padding: 40px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.sell-container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: white;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+.sell-container h2 {
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #475569;
+}
+
+.form-group input,
+.form-group select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #dbeafe;
+  outline: none;
+  transition: 0.2s;
+  font-size: 14px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.stock-info {
+  background: #f1f5f9;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.sell-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: none;
+  background: #dc2626;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sell-btn:hover {
+  background: rgb(6, 6, 171);
+  transform: translateY(-2px);
+}
+
+.no-stocks {
+  text-align: center;
+  color: #64748b;
+}

@@ -1,0 +1,218 @@
+.buy-page {
+  min-height: 100vh;
+  background: #f4f7fb;
+}
+
+/* MAIN CONTAINER */
+.buy-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* PAGE TITLE */
+.buy-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #111;
+}
+
+/* ================= SEARCH SECTION ================= */
+
+.search-section {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.search-section input {
+  flex: 1;
+  padding: 18px 20px;          /* Bigger */
+  font-size: 18px;              /* Bigger text */
+  border-radius: 14px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: 0.2s;
+}
+
+.search-section input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.search-section button {
+  padding: 18px 30px;           /* Bigger button */
+  font-size: 16px;
+  border-radius: 14px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* ONLY MAKE SEARCH BOX BIGGER */
+.search-section input {
+  flex: 1;
+  padding: 18px 20px;     /* Bigger height */
+  font-size: 18px;        /* Bigger text */
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.search-section input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+/* MESSAGE */
+.message {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #16a34a;
+}
+
+/* ================= STOCK LIST ================= */
+
+/* ONLY MAKE SEARCH BOX BIGGER */
+.search-section input {
+  flex: 1;
+  padding: 18px 20px;     /* Bigger height */
+  font-size: 18px;        /* Bigger text */
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.search-section input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+/* ===== STOCK LIST WITH SPACING & BIGGER HEIGHT ===== */
+
+.stock-list {
+  margin-top: 20px;
+}
+
+/* Each Row */
+.stock-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 24px;      /* Increased height */
+  margin-bottom: 12px;     /* Space between stocks */
+  cursor: pointer;
+  font-weight: 600;
+  background: white;
+  border-radius: 12px;     /* Rounded corners */
+  transition: 0.2s ease;
+  border: 1px solid #e5e7eb;
+}
+
+/* Hover */
+.stock-row:hover {
+  background: #f8fafc;
+  transform: translateY(-2px);
+}
+
+/* Active selected stock */
+.stock-row.active {
+  background: #eff6ff;
+  border: 2px solid #2563eb;
+}
+
+/* Symbol */
+.stock-row span:first-child {
+  font-size: 17px;
+  color: #111;
+}
+
+/* Price */
+.stock-row span:last-child {
+  font-size: 17px;
+  color: #2563eb;
+}
+
+/* ================= CHART SECTION ================= */
+
+.chart-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.chart-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.chart-selector {
+  margin-bottom: 20px;
+}
+
+.chart-selector select {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* BIG CHART */
+.big-chart {
+  height: 400px;
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+
+/* ================= BUY CONTROLS ================= */
+
+.buy-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.buy-controls input {
+  width: 120px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  text-align: center;
+}
+
+.total-preview {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111;
+}
+
+.buy-btn {
+  padding: 12px 28px;
+  border-radius: 12px;
+  border: none;
+  background: #16a34a;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.buy-btn:hover {
+  background: #15803d;
+  transform: translateY(-2px);
+}

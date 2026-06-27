@@ -1,0 +1,89 @@
+.dashboard {
+  background: #f9fafb;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.card {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  min-width: 200px;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card.profit p {
+  color: #16a34a;
+}
+
+.card.loss p {
+  color: #dc2626;
+}
+
+/* CENTER CHART */
+
+.center-chart {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.chart-box {
+  width: 60%;
+  margin: 20px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+/* Flash animation when profit changes */
+.flash-green {
+  animation: flashGreen 1s ease;
+}
+
+.flash-red {
+  animation: flashRed 1s ease;
+}
+
+@keyframes flashGreen {
+  0% { background-color: rgba(22,163,74,0.2); }
+  100% { background-color: white; }
+}
+
+@keyframes flashRed {
+  0% { background-color: rgba(220,38,38,0.2); }
+  100% { background-color: white; }
+}
+.percent-green {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.percent-red {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.percent-neutral {
+  color: #6b7280;
+  font-weight: 600;
+}

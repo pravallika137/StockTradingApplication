@@ -1,0 +1,94 @@
+.transactions-page {
+  padding: 20px;
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+.transactions-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.page-title {
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.no-transactions {
+  text-align: center;
+  color: #6b7280;
+  margin-top: 30px;
+}
+
+.transaction-card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+}
+
+.transaction-card:hover {
+  transform: translateY(-4px);
+}
+
+.transaction-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.badge {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+.badge.buy {
+  background: #2563eb;
+}
+
+.badge.sell {
+  background: #f97316;
+}
+
+.symbol {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.time {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.transaction-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.transaction-body div p {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 4px;
+}
+
+.transaction-body strong {
+  font-size: 15px;
+}
+
+.profit {
+  color: #16a34a;
+}
+
+.loss {
+  color: #dc2626;
+}
